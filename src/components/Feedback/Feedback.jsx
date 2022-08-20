@@ -15,12 +15,6 @@ export const Feedback = () => {
     return Math.round((good / countTotalFeedbacks()) * 100);
   };
 
-  // handleGood = option => {
-  //   this.setState(prevState => ({
-  //     [option]: prevState[option] + 1,
-  //   }));
-  // };
-
   const handleChange = bntName => {
     switch (bntName) {
       case 'good':
